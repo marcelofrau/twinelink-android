@@ -1,0 +1,22 @@
+schema: spec-driven
+
+context: |
+  Project: Twine (twinelink) - an open-source cross-device link, a hard fork of
+  KDE Connect. Features: remote desktop (RDP client), Wake-on-LAN, clipboard,
+  file transfer, notifications, a modern UX.
+  Repo: twinelink-android (the Android app).
+  Stack: Kotlin, Jetpack Compose, Material 3, Gradle; Android SDK and NDK.
+  The KDE Connect Android core/plugins are retained as the control plane.
+  An embedded FreeRDP client (via NDK) provides the remote session.
+  Protocol identifiers stay kdeconnect.* for interop.
+  Standards: SOLID; see the project documentation for conventions.
+  Everything committed is in English.
+  Docs, requirements and roadmap: https://github.com/marcelofrau/twinelink-docs
+  Every feature or fix is an OpenSpec change.
+  Quality: ktlint, detekt, Android Lint, JUnit + coverage in CI.
+
+rules:
+  proposal:
+    - Keep proposals focused; state FR-/NFR- requirement IDs when applicable.
+  tasks:
+    - Break work into verifiable chunks; verify on a real Android device.
