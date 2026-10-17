@@ -1,6 +1,6 @@
 # AGENTS.md - twinelink-android
 
-The Twine Android client - a hard fork of KDE Connect Android, rewritten to
+The twinelink Android client - a hard fork of KDE Connect Android, rewritten to
 Jetpack Compose. Stack: Kotlin, Jetpack Compose, Gradle 9.6, KSP, single module
 (root project). Protocol identifiers stay `kdeconnect.*`.
 
@@ -16,7 +16,7 @@ merge requests.
 
 ## Continuity
 See `twinelink-docs/docs/plan/session-log.md`.
-## Working rules (all Twine repositories)
+## Working rules (all twinelink repositories)
 - Everything committed is in English (docs, code, comments, commits, PRs).
   The maintainer chats in Portuguese and uses a terse, compressed style.
 - OpenSpec-first: every feature/fix is an OpenSpec change (proposal, specs,
